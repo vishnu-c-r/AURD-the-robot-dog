@@ -3,12 +3,23 @@
 ## Project Overview
 The Autonomous Robot Dog is designed for industrial monitoring, capable of detecting various gases and identifying pipe cracks. This project is the culmination of innovative engineering for practical applications in industrial safety and maintenance.
 
+## Components used
+- Jetson nano
+- Arduino R4 wifi
+- ESP32
+- 25kg/cm servo x 8
+- 35kg/cm servo x 4
+- YDlidar x4 pro
+- PCA9685 servo driver
+- IMX219 Cam for jetson
+- various gas sensors 
+
 ## Current status
+- [x] **Leg Prototype**: A working prototype of one leg has been completed.
+- [ ] **Finished Body**: Final version of the bot.
+- [ ] **Autonomous Navigation**: State-of-the-art navigation system allows for seamless movement through industrial terrains.
 - [ ] **Gas Detection**: Equipped with sensors to detect multiple gases, ensuring a safe industrial environment.
 - [ ] **Crack Identification**: Advanced imaging and processing capabilities to identify pipe cracks efficiently.
-- [ ] **Autonomous Navigation**: State-of-the-art navigation system allows for seamless movement through industrial terrains.
-- [ ] **Finished Body**: Final version of the bot.
-- [x] **Leg Prototype**: A working prototype of one leg has been completed.
 - [ ] **Real-Time Reporting**: Instantaneous data reporting and alerting mechanism for quick response actions.
 
 ## Installation
